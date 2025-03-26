@@ -40,7 +40,7 @@ kotlin {
 }
 
 android {
-    namespace = "io.github.chanjun-park.kmp.fibocj"
+    namespace = "io.github.chanjun-park.fibocj"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
@@ -65,22 +65,23 @@ mavenPublishing {
         url = "https://github.com/ChanJun-Park/MyKMPFibo/"
         licenses {
             license {
-                name = "XXX"
-                url = "YYY"
-                distribution = "ZZZ"
+                name = "The Apache License, Version 2.0"
+                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                distribution = "https://www.apache.org/licenses/LICENSE-2.0.txt"
             }
         }
         developers {
             developer {
-                id = "XXX"
-                name = "YYY"
-                url = "ZZZ"
+                id = "ChanJun-Park"
+                name = "ChanJun-Park"
+                email = "pcj01142@gmail.com"
+                url = "https://github.com/ChanJun-Park/"
             }
         }
         scm {
-            url = "XXX"
-            connection = "YYY"
-            developerConnection = "ZZZ"
+            url = "https://github.com/ChanJun-Park/MyKMPFibo/"
+            connection = "scm:git:git://github.com/ChanJun-Park/MyKMPFibo.git"
+            developerConnection = "scm:git:ssh://git@github.com/ChanJun-Park/MyKMPFibo.git"
         }
     }
 }
