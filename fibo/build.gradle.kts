@@ -8,7 +8,7 @@ plugins {
     alias(libs.plugins.vanniktech.mavenPublish)
 }
 
-group = "io.github.chanjunpark"
+group = "io.github.chanjun-park"
 version = "1.0.0"
 
 kotlin {
