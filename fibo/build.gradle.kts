@@ -8,7 +8,7 @@ plugins {
     alias(libs.plugins.vanniktech.mavenPublish)
 }
 
-group = "io.github.chanjun-park"
+group = "io.github.chanjunpark"
 version = "1.0.0"
 
 kotlin {
@@ -40,7 +40,7 @@ kotlin {
 }
 
 android {
-    namespace = "io.github.chanjun-park.fibocj"
+    namespace = "io.github.chanjunpark.fibocj"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
